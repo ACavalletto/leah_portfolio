@@ -1,6 +1,8 @@
+
 body{
-    margin: 0 0 0 0;
+    margin: 0;
     height: 1800px;
+    box-sizing: border-box;
 }
 .topNav {
     display: flex;
@@ -24,19 +26,27 @@ body{
 .topNav a.icon{
     float: right;
 }
-.coverPicture{
-    position: relative;
-    z-index: -1;
+.cover{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/pictures/CA91AA98-BB51-42B8-9876-550A31CA36A0.jpeg");
+    background-size: cover;
+    height: 480px;
 }
-.coverPicture img{
-    width:320px;
-    height: auto;
+#coverTitle {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #CFAD99;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #f8eed0;
 }
 .gallerySection{
     position:relative;
     background-color: black;
     height: 600px;
-    margin-top: -100px; 
+    margin-top: 0;
     display: flex;
     justify-content: center;
 }
