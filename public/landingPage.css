@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     height: 1800px;
@@ -33,7 +32,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/assets/pictures/39C00772-36B1-4013-8330-4F5DBA1ADFBD.jpeg");
+    background-image: url("../public/assets/pictures/39C00772-36B1-4013-8330-4F5DBA1ADFBD.jpeg");
     background-size: cover;
     height: 480px;
 }
