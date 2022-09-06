@@ -44,6 +44,13 @@ body{
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #f8eed0;
 }
+.contentContainer{
+    border: 6px #D9A17F;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+}
 .gallerySection{
     position:relative;
     background-color: #F7EBDB;
@@ -90,7 +97,7 @@ body{
 }
 .aboutSection{
     background:#F7EBDB;
-    padding: 27px 50px 25px 50px;
+    padding: 27px 50px 50px 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
