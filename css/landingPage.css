@@ -12,6 +12,7 @@ body{
     overflow: hidden;
     background-color: #F7EBDB;
     position: relative;
+    gap: 1.5em;
 }
 .topNav #myLinks{
     display:none;
@@ -51,12 +52,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-    padding: 25px;
+    padding: 50px 0px 35px 0px;
 }
 .gallerySection img{
     width: 213px;
     height: 396px;
-    border: 5px solid #cfad99;
+    border: 7px solid #e7c8b6;
+    border-radius: 5px;
 }
 .galleryBtn button{
     width: 100px;
@@ -72,16 +74,59 @@ body{
     text-align: center;
     background: #F7EBDB;
     margin-top: -2px;
-    padding: 0 0 27px 0;
+    padding: 0 0 35px 0;
 }
 .testimonialsSection h5{
     color: #819283;
     margin-bottom:10px;
+    margin-top: 15px;
     font-weight: 400;
-    font-size: 16px
+    font-size: 24px
 }
 .testimonialsSection p{
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 50px;
+    font-weight: 300;
+}
+.aboutSection{
+    background:#F7EBDB;
+    padding: 27px 50px 25px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2px;
+}
+.aboutSection img{
+    height: 175px;
+    width: 120px;
+    border-radius: 100%;
+}
+.aboutSection h5{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0 5px 0;
+    color: #819283;
+}
+.aboutSection p{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+.aboutSection button{
+    width: 100px;
+    height: 25px;
+    background: #CFAD99;
+    color: #fff3cb;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+.aboutSection i{
+    color:#819283
+}
+#instagramHandle{
+    color: #819283;
+    font-size: 16px;
     font-weight: 300;
 }
