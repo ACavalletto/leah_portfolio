@@ -15,6 +15,10 @@ app.get('/pricing', (req, res) => {
     res.render('pricing.ejs')
 });
 
+app.get('/gallery', (req, res) => {
+    res.render('gallery.ejs')
+});
+
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
 });
