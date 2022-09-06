@@ -46,13 +46,12 @@ body{
 .gallerySection{
     position:relative;
     background-color: #F7EBDB;
-    height: 600px;
     margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-    padding: 50px;
+    padding: 25px;
 }
 .gallerySection img{
     width: 213px;
