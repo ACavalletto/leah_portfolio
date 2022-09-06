@@ -3,6 +3,7 @@ body{
     margin: 0;
     height: 1800px;
     box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 .topNav {
     display: flex;
@@ -36,7 +37,6 @@ body{
     height: 480px;
 }
 #coverTitle {
-    font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: 200;
     color: #CFAD99;
@@ -65,4 +65,23 @@ body{
     color: #fff3cb;
     border-radius: 5px;
     border: none;
+}
+.testimonialsSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F7EBDB;
+    margin-top: -2px;
+    padding: 0 0 27px 0;
+}
+.testimonialsSection h5{
+    color: #819283;
+    margin-bottom:10px;
+    font-weight: 400;
+    font-size: 16px
+}
+.testimonialsSection p{
+    font-size: 10px;
+    margin: 0 50px;
+    font-weight: 300;
 }
