@@ -2,7 +2,47 @@
         <link rel="stylesheet" href="public/pricingPage.css" />
     </head> 
     <body>
-        <%- include('./partials/navbar.ejs') %> 
-        
+        <div class="contentContainer">
+            <%- include('./partials/navbar.ejs') %>
+            <h3>Pricing</h3>
+            <p>
+                All sessions will include a sneak peak within 24 hours.<br />
+                25% deposit due at time of booking.<br />
+                Two week turnaround time.<br />
+                Travel costs upon request.<br />
+            </p>
+            <button id= 'contact' onclick="window.location.href='contact';">
+                <u>Book Session</u>
+            </button>
+            <div class="bronzeTier">
+                <img src='/public/assets/pictures/C964CCD6-F500-4405-B9BD-6112AC132921.jpeg'/>
+                <h5>Bronze</h5>
+                <h6>$150</h6>
+                <ul>
+                    <li>
+                        30 minute coverage
+                    </li>
+                    <li>
+                        20+ digital images
+                    </li>
+                </ul>
+            </div>
+            <div class="silverTier">
+                <img src='/public/assets/pictures/802E45A0-F70A-4ABE-BB35-6EF17C93F32E.jpeg'/>
+                <h5>Silver</h5>
+                <h6>$225</h6>
+                <ul>
+                    <li>
+                        45-60 minute coverage
+                    </li>
+                    <li>
+                        Black and white photos
+                    </li>
+                    <li>
+                        30+ digital images
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

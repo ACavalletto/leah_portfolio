@@ -30,6 +30,7 @@ body{
 }
 .cover{
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url("../public/assets/pictures/39C00772-36B1-4013-8330-4F5DBA1ADFBD.jpeg");
@@ -42,6 +43,14 @@ body{
     color: #CFAD99;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #f8eed0;
+}
+#contact{
+    width: 100px;
+    height: 25px;
+    background: #cfad99bd;
+    color: #fff3cb;
+    border-radius: 5px;
+    border: none;
 }
 .contentContainer{
     border: 6px #D9A17F;
