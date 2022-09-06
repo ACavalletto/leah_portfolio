@@ -58,3 +58,6 @@ body{
     color:#D9A17F;
     cursor: pointer;
 }
+#pictureAnchor{
+    text-decoration: none;
+}
