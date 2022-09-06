@@ -25,12 +25,13 @@ body{
 }
 .topNav a.icon{
     float: right;
+    margin-right: 10px;
 }
 .cover{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/assets/pictures/CA91AA98-BB51-42B8-9876-550A31CA36A0.jpeg");
+    background-image: url("/assets/pictures/39C00772-36B1-4013-8330-4F5DBA1ADFBD.jpeg");
     background-size: cover;
     height: 480px;
 }
@@ -44,14 +45,25 @@ body{
 }
 .gallerySection{
     position:relative;
-    background-color: black;
+    background-color: #F7EBDB;
     height: 600px;
     margin-top: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 50px;
 }
 .gallerySection img{
-    padding-top: 50px;
     width: 213px;
     height: 396px;
+    border: 5px solid #cfad99;
+}
+.galleryBtn button{
+    width: 100px;
+    height: 25px;
+    background: #CFAD99;
+    color: #fff3cb;
+    border-radius: 5px;
+    border: none;
 }
