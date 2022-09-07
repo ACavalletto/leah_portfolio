@@ -1,0 +1,36 @@
+<%- include ('./partials/head.ejs')%>
+<link rel="stylesheet" href="../public/contactPage.css">
+</head>
+<body>
+    <div class="contentContainer">
+        <%- include ('./partials/navbar.ejs')%>
+        <h3>Contact Me</h3>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label><input type="text" name="name" placeholder='Name'/></label>
+            </p>
+            <p>
+              <label><input type="email" name="email" placeholder='Email'/></label>
+            </p>
+            <p>
+              <label>Your Role: <select name="tier">
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="mini">Mini</option>
+              </select></label>
+            </p>
+            <p>
+                <label><input type="instagram" name="instagram" placeholder='Instagram Handle'/></label>
+              </p>
+            <p>
+              <label>Shoot Details <textarea name="message" placeholder="Let me know about your shoot. Any inspiration, details, or ideas."></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          
+    </div>
+</body> 
+</html>

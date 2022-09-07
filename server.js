@@ -19,6 +19,10 @@ app.get('/gallery', (req, res) => {
     res.render('gallery.ejs')
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact.ejs')
+});
+
 app.get('/gallery/:id', (req, res) => { 
     res.render(`${req.params.id}.ejs`)
 })
