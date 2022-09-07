@@ -19,6 +19,10 @@ app.get('/gallery', (req, res) => {
     res.render('gallery.ejs')
 });
 
+app.get('/gallery/:id', (req, res) => { 
+    res.render(`${req.params.id}.ejs`)
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
 });
