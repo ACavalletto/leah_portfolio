@@ -38,9 +38,55 @@ body{
     border-right-style: none;
     background: #F7EBDB;
     text-align: center;
+    height:100vh;
 }
 .contentContainer h3{
-    margin-top: 5px;
+    margin-top: 15px;
     color: #819283;
     font-weight: 400;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form p{
+    width: 160px;
+}
+textarea{
+    height: 150px;
+    width: 200px;
+    margin: 10px -50px 0px -50px;
+    border-color: #819283;
+    background-color: #D9A17F;
+    color: #fff3cb;
+    text-align: center;
+    padding: 5px;
+}
+textarea::placeholder{
+    color:#fff3cb
+}
+#btn{
+    margin-top:0px;
+}
+button{
+    width: 80px;
+    border-radius: 5px;
+    color:#fff3cb;
+    background: #819283;
+}
+#textInput{
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-color: #D9A17F;
+    background: transparent;
+    color:#819283
+}
+#textInput::placeholder{
+    color:#819283
+}
+.labelText{
+    color: #D9A17F;
 }
